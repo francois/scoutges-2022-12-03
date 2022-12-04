@@ -12,10 +12,12 @@ class Scoutges::Views::BaseLayout < Scoutges::View
       head do
         meta charset: "utf-8"
         title { @title }
-        # style
+        link href: "app.css", rel: "stylesheet"
       end
 
-      body(&)
+      body(class: "bg-gray-200 m-2") do
+        div(&)
+      end
     end
   end
 end
