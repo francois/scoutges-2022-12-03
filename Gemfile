@@ -9,6 +9,7 @@ gem "hanami", "~> 2.0"
 gem "hanami-controller", "~> 2.0"
 gem "hanami-router", "~> 2.0"
 gem "hanami-validations", "~> 2.0"
+gem "phlex", "~> 0.5", "< 1"
 gem "puma"
 gem "rake"
 

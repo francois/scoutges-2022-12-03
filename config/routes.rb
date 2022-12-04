@@ -2,6 +2,6 @@
 
 module Scoutges
   class Routes < Hanami::Routes
-    root { "Hello from Hanami" }
+    root to: "public.index"
   end
 end
