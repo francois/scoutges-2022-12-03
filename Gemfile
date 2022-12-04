@@ -24,6 +24,7 @@ end
 
 group :development do
   gem "guard-puma", "~> 0.8"
+  gem "standardrb", "< 2"
 end
 
 group :test do
