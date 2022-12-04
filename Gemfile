@@ -14,6 +14,7 @@ gem "puma"
 gem "rake"
 
 group :development, :test do
+  gem "byebug"
   gem "dotenv"
 end
 
